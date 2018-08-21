@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name   : "redux",
-    script : "./index.js",
+    script : "src/server/index.js",
     instances  : 1,
     exec_mode  : "cluster",
     ignore_watch: [
