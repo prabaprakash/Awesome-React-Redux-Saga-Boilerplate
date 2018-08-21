@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js --mode development"
+    "prestart": "pm2 start src/server/ecosystem.config.js",
+    "start": "webpack -d --watch --progress --colors"
   },
   "author": "",
   "license": "ISC",

@@ -11,7 +11,7 @@ export default class App extends React.Component {
       <div>
        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
       </div>
-    ): <div className="container"> Praba <input type="button" value = "Play Me" onClick = {()=> this.props.add(1)}/> </div>;
+    ): <div className="container"> Welcome <input type="button" value = "Play Me" onClick = {()=> this.props.add(1)}/> </div>;
   }
 }
 
