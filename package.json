@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prestart": "pm2 start src/server/ecosystem.config.js",
-    "start": "webpack -d --watch --progress --colors"
+    "start": "npm run build:dll:dev && webpack -d --watch --progress --colors",
+    "build:dll:dev": "webpack -d --config webpack.library.config.js",
+    "build:dll:prod": "webpack -p --config webpack.library.config.js"    
   },
   "author": "",
   "license": "ISC",
@@ -20,19 +22,20 @@
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1"
+  },
+  "dependencies": {
+    "react-player": "^1.6.4",
+    "redux-saga": "^0.16.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "css-loader": "^1.0.0",
-    "react-player": "^1.6.4",
-    "redux-saga": "^0.16.0",
-    "style-loader": "^0.22.1"
+    "redux": "^4.0.0"
   }
 }
