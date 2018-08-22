@@ -12,6 +12,6 @@ describe('App Component', () => {
   })
   it('renders react player div', () => {
     wrapper = shallow(<App number="1"/>)
-    expect(wrapper.find('div').text()).toContain("Welcome");
+    expect(wrapper.find('div').text()).toContain("<ReactPlayer />");
   })
 })
