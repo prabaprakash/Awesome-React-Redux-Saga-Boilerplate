@@ -1,0 +1,9 @@
+--recursive
+--colors
+--reporter spec
+--growl
+--compilers js:babel-core/register
+--require babel-polyfill
+--require test/mochasetup.js
+--require jsdom-global/register
+test/unit/**/*.{js,jsx}
