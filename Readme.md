@@ -255,3 +255,10 @@ INFO Selenium process finished.
   * JS   - `npm run lint ` to run jslint
   * JSON - `npm run jsonlint` to run jsonlint
   * Style- `npm run stylelint` to run style-lint.
+ 
+### License
+Copyright (c) 2018 Praba Prakash, contributors.
+
+Released under the [MIT license](https://tldrlegal.com/license/mit-license).
+
+Screenshots are [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike)
