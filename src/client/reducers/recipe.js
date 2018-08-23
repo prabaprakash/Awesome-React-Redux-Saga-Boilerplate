@@ -8,6 +8,7 @@ const recipe = (state = {}, action) => {
     });
   default:
     return state;
-}};
+  }
+};
 
 export default recipe;

@@ -8,6 +8,7 @@ const add = (state = {}, action) => {
     });
   default:
     return state;
-}};
+  }
+};
 
 export default add;

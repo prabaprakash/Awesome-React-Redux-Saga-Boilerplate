@@ -7,7 +7,8 @@ export function callFetch(endpoint, params = {}) {
   }
   return fetch(endpoint, requestOptions)
     .then(
-      response => _.get(response, 'ok') ? response.json() : Promise.reject(response)
+      response =>
+        _.get(response, 'ok') ? response.json() : Promise.reject(response)
     )
     .then(
       response => ({ response }),
@@ -20,14 +21,13 @@ export function callPost(endpoint, body = {}) {
     credentials: 'same-origin',
     method: 'POST',
     headers: {
-      'Accept': 'application/json',
+      Accept: 'application/json',
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(body),
   };
-  return fetch(endpoint, requestOptions)
-    .then(
-      response => ({ response }),
-      error => ({ error: error.message || 'Something bad happened' })
-    );
+  return fetch(endpoint, requestOptions).then(
+    response => ({ response }),
+    error => ({ error: error.message || 'Something bad happened' })
+  );
 }
