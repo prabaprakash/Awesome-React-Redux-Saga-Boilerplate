@@ -3,7 +3,7 @@
   *  PM2        : `npm install -g pm2`
 
 # Clone:
-  `git clone https://github.com/prabaprakash/React_Redux_Saga_Boilerplate.git`
+  `git clone https://github.com/prabaprakash/React-Redux-Saga-Boilerplate.git`
 
 # Start Application:
   * `npm install`  to download dependencies
