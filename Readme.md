@@ -255,7 +255,55 @@ INFO Selenium process finished.
   * JS   - `npm run lint ` to run jslint
   * JSON - `npm run jsonlint` to run jsonlint
   * Style- `npm run stylelint` to run style-lint.
- 
+
+## Dependencies
+
+- [react-player](https://ghub.io/react-player): A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion
+- [redux-saga](https://ghub.io/redux-saga): Saga middleware for Redux to handle Side Effects
+- [react](https://ghub.io/react): React is a JavaScript library for building user interfaces.
+- [react-dom](https://ghub.io/react-dom): React package for working with the DOM.
+- [react-redux](https://ghub.io/react-redux): Official React bindings for Redux
+- [redux](https://ghub.io/redux): Predictable state container for JavaScript apps
+
+## Dev Dependencies
+
+- [@babel/cli](https://ghub.io/@babel/cli): Babel command line.
+- [@babel/core](https://ghub.io/@babel/core): Babel compiler core.
+- [@babel/polyfill](https://ghub.io/@babel/polyfill): Provides polyfills necessary for a full ES2015+ environment
+- [@babel/preset-env](https://ghub.io/@babel/preset-env): A Babel preset for each environment.
+- [@babel/preset-react](https://ghub.io/@babel/preset-react): Babel preset for all React plugins.
+- [@babel/register](https://ghub.io/@babel/register): babel require hook
+- [babel-eslint](https://ghub.io/babel-eslint): Custom parser for ESLint
+- [babel-loader](https://ghub.io/babel-loader): babel module loader for webpack
+- [babel-polyfill](https://ghub.io/babel-polyfill): Provides polyfills necessary for a full ES2015+ environment
+- [chromedriver](https://ghub.io/chromedriver): ChromeDriver for Selenium
+- [css-loader](https://ghub.io/css-loader): css loader module for webpack
+- [cucumber](https://ghub.io/cucumber): The official JavaScript implementation of Cucumber.
+- [cucumber-pretty](https://ghub.io/cucumber-pretty): Cucumber.js Pretty Formatter
+- [enzyme](https://ghub.io/enzyme): JavaScript Testing utilities for React
+- [enzyme-adapter-react-16](https://ghub.io/enzyme-adapter-react-16): JavaScript Testing utilities for React
+- [eslint](https://ghub.io/eslint): An AST-based pattern checker for JavaScript.
+- [eslint-plugin-json](https://ghub.io/eslint-plugin-json): Lint JSON files
+- [eslint-plugin-react](https://ghub.io/eslint-plugin-react): React specific linting rules for ESLint
+- [expect](https://ghub.io/expect): This package exports the `expect` function used in [Jest](https://jestjs.io/). You can find its documentation [on Jest&#39;s website](https://jestjs.io/docs/en/expect.html).
+- [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
+- [extract-text-webpack-plugin](https://ghub.io/extract-text-webpack-plugin): Extract text from bundle into a file.
+- [jsdom](https://ghub.io/jsdom): A JavaScript implementation of many web standards
+- [mocha](https://ghub.io/mocha): simple, flexible, fun test framework
+- [nightwatch](https://ghub.io/nightwatch): Easy to use Node.js based End-to-End testing solution for browser based apps and websites, using the W3C WebDriver API.
+- [nightwatch-cucumber](https://ghub.io/nightwatch-cucumber): Nightwatch.js plugin for Cucumber.js
+- [node-sass](https://ghub.io/node-sass): Wrapper around libsass
+- [nyc](https://ghub.io/nyc): the Istanbul command line interface
+- [react-addons-test-utils](https://ghub.io/react-addons-test-utils): This package provides the React TestUtils add-on.
+- [sass-loader](https://ghub.io/sass-loader): Sass loader for webpack
+- [selenium-server](https://ghub.io/selenium-server): Selenium in an npm package
+- [style-loader](https://ghub.io/style-loader): style loader module for webpack
+- [stylelint](https://ghub.io/stylelint): A mighty, modern CSS linter.
+- [stylelint-config-standard](https://ghub.io/stylelint-config-standard): Standard shareable config for stylelint
+- [uglifyjs-webpack-plugin](https://ghub.io/uglifyjs-webpack-plugin): UglifyJS plugin for webpack
+- [webpack](https://ghub.io/webpack): Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.
+- [webpack-cli](https://ghub.io/webpack-cli): CLI for webpack &amp; friends
+
 ### License
 Copyright (c) 2018 Praba Prakash, contributors.
 
