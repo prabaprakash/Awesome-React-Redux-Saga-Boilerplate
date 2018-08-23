@@ -15,6 +15,6 @@ module.exports = {
     log_file: "./logs/redux.log",
     out_file: "./logs/redux_access.log",
     err_file: "./logs/redux_error.log",
-    watch: true,
+    watch: ["src/dist", "src/server"],
   }]
 }
