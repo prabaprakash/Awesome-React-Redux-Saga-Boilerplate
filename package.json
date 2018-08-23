@@ -13,9 +13,10 @@
     "test": "nyc mocha",
     "feature": "./node_modules/.bin/nightwatch",
     "feature:debug": "node --inspect-brk node_modules/.bin/nightwatch",
-    "lint": "eslint ./src/client ./src/server ./test/unit ./test/features --fix",
+    "lint": "npm run jslint && npm run jsonlint && npm run csslint",
+    "jslint": "eslint ./src/client ./src/server ./test/unit ./test/features --fix",
     "jsonlint": "eslint ./ --ext .json",
-    "stylelint": "stylelint ./src/client/**/*.scss --syntax scss --fix"
+    "csslint": "stylelint ./src/client/**/*.scss --syntax scss --fix"
   },
   "author": "",
   "license": "ISC",
