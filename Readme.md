@@ -1,4 +1,4 @@
-![](http://i.imgur.com/Ssfp7.gif)
+![](https://raw.githubusercontent.com/prabaprakash/React-Redux-Saga-Boilerplate/master/doc/app.gif)
 # Pre-requisites:
   *  Node v8.9.4
   *  PM2        : `npm install -g pm2`
