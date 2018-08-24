@@ -6,3 +6,4 @@
 --require test/mochasetup.js
 --require jsdom-global/register
 test/unit/**/*.{js,jsx}
+--exit

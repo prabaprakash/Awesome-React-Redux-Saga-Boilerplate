@@ -1,7 +1,7 @@
 import {  put, takeEvery } from 'redux-saga/effects';
 import * as actions from '../constants';
 
-function* initalize() {
+export function* initalize() {
   try {
     yield put({
       type: actions.SAVE,
@@ -16,7 +16,7 @@ export function* initalizeWatcher() {
   yield takeEvery(actions.INITALIZE_APPLICATION, initalize);
 }
 
-function* addnumber(action) {
+export function* addnumber(action) {
   try {
     yield put({ type: actions.SAVE, number: action.payload.number + 1 });
   } catch (e) {
@@ -30,7 +30,7 @@ export function* addWatcher() {
 export default addWatcher;
 
 
-function* changenumber(action) {
+export function* changenumber(action) {
   try {
     yield put({ type: actions.SAVE, number: action.payload.number });
   } catch (e) {
@@ -43,7 +43,7 @@ export function* changeWatcher() {
 }
 
 
-function* subnumber(action) {
+export function* subnumber(action) {
   try {
     yield put({ type: actions.SAVE, number: action.payload.number - 1 });
   } catch (e) {

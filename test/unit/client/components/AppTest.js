@@ -1,7 +1,7 @@
 import { describe, it, beforeEach } from 'mocha';
-import React from 'react';
 import Enzyme, { mount, shallow } from 'enzyme';
 import td from 'testdouble';
+import React from 'react';
 import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
 import chai, { expect } from 'chai';
@@ -9,7 +9,7 @@ import chaiEnzyme from 'chai-enzyme';
 chai.use(chaiEnzyme());
 import App from '../../../../src/client/components/App';
 
-describe.only('App Component', () => {
+describe('App Component', () => {
   let wrapper, addspy, subspy, changespy;
   beforeEach(function () {
     addspy = td.function();
