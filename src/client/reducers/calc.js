@@ -1,14 +1,14 @@
 import * as actions from '../constants';
 
-const recipe = (state = {}, action) => {
+const calc = (state = {}, action) => {
   switch (action.type) {
-  case actions.ADD_RECIPES:
+  case actions.SAVE:
     return Object.assign({}, state, {
-      recipes: action.recipes,
+      number: action.number,
     });
   default:
     return state;
   }
 };
 
-export default recipe;
+export default calc;

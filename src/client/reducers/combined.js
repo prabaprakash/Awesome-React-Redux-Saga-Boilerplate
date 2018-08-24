@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
-import  add  from './add';
-import recipe from './recipe';
+import  calc  from './calc';
 
 const combined = combineReducers({
-  add,
-  recipe,
+  calc,
 });
 
 export default combined;

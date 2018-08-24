@@ -4,5 +4,5 @@
 --require @babel/register
 --require babel-polyfill
 --require test/mochasetup.js
---require jsdom
+--require jsdom-global/register
 test/unit/**/*.{js,jsx}

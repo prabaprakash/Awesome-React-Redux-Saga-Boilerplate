@@ -4,4 +4,13 @@
   background-color: #fff;
   text-transform: capitalize;
   text-align: left;
+  .btn {
+    margin: 10px;
+  }
+  .form-control {
+    margin: 10px;
+    display: unset;
+    width: unset;
+    padding-bottom: 9px;
+  }
 }

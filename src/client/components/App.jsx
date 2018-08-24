@@ -1,35 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ReactPlayer from 'react-player';
+
 import '../styles/App.scss';
+import { Button, FormControl } from 'react-bootstrap';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
+    this.handleChange = this.handleChange.bind(this);
+  }
+  handleChange(e) {
+    parseInt(e.target.value) ? this.props.change(parseInt(e.target.value)): '';
   }
   render() {
-    return this.props.number == 1 ? (
-      <div>
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-          playing
-        />
-      </div>
-    ) : (
-      <div className="container">
-        {' '}
-        Welcome{' '}
-        <input
-          type="button"
-          value="Play Me"
-          onClick={() => this.props.add(1)}
-        />{' '}
-      </div>
+    return (<div className="container">
+      <Button bsStyle="primary" onClick={() => this.props.add(this.props.number)}>
+          +
+      </Button>
+      <FormControl
+        type="text"
+        value={this.props.number}
+        onChange={this.handleChange}
+      />
+      <Button bsStyle="primary" onClick={() => this.props.sub(this.props.number)}>
+          -
+      </Button>
+    </div>
     );
   }
 }
 
 App.propTypes = {
-  number: PropTypes.string,
+  number: PropTypes.number,
   add: PropTypes.func,
-  recipes: PropTypes.array,
+  sub: PropTypes.func,
+  change: PropTypes.func,
 };
