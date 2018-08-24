@@ -260,72 +260,44 @@ $ npm run featuretest
 > reactredux@1.0.0 featuretest C:\Users\paranganat\Desktop\ReactRedux
 > nightwatch
 
-Starting selenium server in parallel mode... started - PID:  3504
+Starting selenium server in parallel mode... started - PID:  10916
 
-Started child process for: features\google-search
-Started child process for: features\scenario-outlines-support
-Started child process for: features\yahoo-search
- features\google-search   Feature: Google Search
- features\google-search
- features\google-search   Scenario: Searching Google
- features\google-search   Given I open Google`s search page
- features\google-search   √ Element <body> was visible after 32 milliseconds.
- features\google-search   Then the title is "Google"
- features\google-search   √ Testing if the page title equals "Google".
- features\google-search   And the Google search form exists
- features\google-search   √ Testing if element <input[name="q"]> is visible.
- features\google-search
- features\google-search   Scenario: Searching Google again
- features\google-search   Given I open Google`s search page
- features\google-search   √ Element <body> was visible after 24 milliseconds.
- features\google-search   Then the title is "Google"
- features\google-search   √ Testing if the page title equals "Google".
- features\google-search   And the Google search form exists
- features\google-search   √ Testing if element <input[name="q"]> is visible.
- features\google-search
- features\google-search   2 scenarios (2 passed)
-6 steps (6 passed)
-0m10.244s
+Started child process for: calc
+ calc   Feature: Google Search
+ calc
+ calc   Scenario: Add
+ calc   Given I open app
+ calc   √ Element <body> was visible after 58 milliseconds.
+ calc   And I see textbox with value "100"
+ calc   Then I click add button
+ calc   And I see textbox with value "101"
+ calc   Then I click add button
+ calc   And I see textbox with value "102"
+ calc
+ calc   Scenario: Sub
+ calc   Given I open app
+ calc   √ Element <body> was visible after 28 milliseconds.
+ calc   And I see textbox with value "100"
+ calc   Then I click sub button
+ calc   And I see textbox with value "99"
+ calc   Then I click sub button
+ calc   And I see textbox with value "98"
+ calc
+ calc   Scenario: Change
+ calc   Given I open app
+ calc   √ Element <body> was visible after 27 milliseconds.
+ calc   And I see textbox with value "100"
+ calc   Then I change the text box value to "1000"
+ calc   Then I click add button
+ calc   And I see textbox with value "1001"
+ calc   Then I click sub button
+ calc   And I see textbox with value "1000"
+ calc
+ calc   3 scenarios (3 passed)
+19 steps (19 passed)
+0m08.620s
 
-  >> features\google-search finished.
-
- features\scenario-outlines-support   Feature: Scenario outlines support
- features\scenario-outlines-support
- features\scenario-outlines-support   Scenario Outline: Searching Google
- features\scenario-outlines-support   Given I open Google`s search page
- features\scenario-outlines-support   √ Element <body> was visible after 35 milliseconds.
- features\scenario-outlines-support   When I search for 36/6
- features\scenario-outlines-support   Then the search result should contain 6
- features\scenario-outlines-support   √ Testing if element <body> contains text: "6".
- features\scenario-outlines-support
- features\scenario-outlines-support   Scenario Outline: Searching Google
- features\scenario-outlines-support   Given I open Google`s search page
- features\scenario-outlines-support   √ Element <body> was visible after 24 milliseconds.
- features\scenario-outlines-support   When I search for 500+120
- features\scenario-outlines-support   Then the search result should contain 620
- features\scenario-outlines-support   √ Testing if element <body> contains text: "620".
- features\scenario-outlines-support
- features\scenario-outlines-support   2 scenarios (2 passed)
-6 steps (6 passed)
-0m14.717s
-
-  >> features\scenario-outlines-support finished.
-
- features\yahoo-search   Feature: Yahoo Search
- features\yahoo-search
- features\yahoo-search   Scenario: Searching Yahoo
- features\yahoo-search   Given I open Yahoo`s search page
- features\yahoo-search   √ Element <body> was visible after 36 milliseconds.
- features\yahoo-search   Then the title is "Yahoo"
- features\yahoo-search   √ Testing if the page title equals "Yahoo".
- features\yahoo-search   And the Yahoo search form exists
- features\yahoo-search   √ Testing if element <input[name="p"]> is visible.
- features\yahoo-search
- features\yahoo-search   1 scenario (1 passed)
-3 steps (3 passed)
-0m15.591s
-
-  >> features\yahoo-search finished.
+  >> calc finished.
 
 
 INFO Selenium process finished.
