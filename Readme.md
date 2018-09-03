@@ -87,15 +87,13 @@ $ npm run prod
 > reactredux@1.0.0 preprod C:\Users\paranganat\Desktop\ReactRedux
 > pm2 start src/server/ecosystem.config.js
 
-[PM2] Spawning PM2 daemon with pm2_home=C:\Users\paranganat\.pm2
-[PM2] PM2 Successfully daemonized
-[PM2][WARN] Applications redux not running, starting...
-[PM2] App [redux] launched (1 instances)
-┌──────────┬────┬─────────┬───────┬────────┬─────────┬────────┬───────┬───────────┬────────────┬──────────┐
-│ App name │ id │ mode    │ pid   │ status │ restart │ uptime │ cpu   │ mem       │ user       │ watching │
-├──────────┼────┼─────────┼───────┼────────┼─────────┼────────┼───────┼───────────┼────────────┼──────────┤
-│ redux    │ 0  │ cluster │ 18624 │ online │ 0       │ 0s     │ 18.7% │ 30.9 MB   │ paranganat │ enabled  │
-└──────────┴────┴─────────┴───────┴────────┴─────────┴────────┴───────┴───────────┴────────────┴──────────┘
+[PM2] Applying action restartProcessId on app [redux](ids: 0)
+[PM2] [redux](0) ✓
+┌──────────┬────┬─────────┬──────┬────────┬─────────┬────────┬─────┬───────────┬────────────┬──────────┐
+│ App name │ id │ mode    │ pid  │ status │ restart │ uptime │ cpu │ mem       │ user       │ watching │
+├──────────┼────┼─────────┼──────┼────────┼─────────┼────────┼─────┼───────────┼────────────┼──────────┤
+│ redux    │ 0  │ cluster │ 7768 │ online │ 4       │ 0s     │ 0%  │ 29.6 MB   │ paranganat │ enabled  │
+└──────────┴────┴─────────┴──────┴────────┴─────────┴────────┴─────┴───────────┴────────────┴──────────┘
  Use `pm2 show <id|name>` to get more details about an app
 
 > reactredux@1.0.0 prod C:\Users\paranganat\Desktop\ReactRedux
@@ -107,8 +105,8 @@ $ npm run prod
 
 Hash: db478f551a9bcb7e7b77
 Version: webpack 4.17.0
-Time: 8452ms
-Built at: 2018-08-24 22:45:15
+Time: 6640ms
+Built at: 2018-09-03 11:32:04
         Asset     Size  Chunks                    Chunk Names
 lib.bundle.js  349 KiB       0  [emitted]  [big]  lib
 Entrypoint lib [big] = lib.bundle.js
@@ -117,28 +115,12 @@ Entrypoint lib [big] = lib.bundle.js
 [241] ./config/library.js 139 bytes {0} [built]
 [253] (webpack)/buildin/harmony-module.js 573 bytes {0} [built]
     + 321 hidden modules
-
-WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
-This can impact web performance.
-Assets:
-  lib.bundle.js (349 KiB)
-
-WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
-Entrypoints:
-  lib (349 KiB)
-      lib.bundle.js
-
-
-WARNING in webpack performance recommendations:
-You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
-For more info visit https://webpack.js.org/guides/code-splitting/
  10% building modules 1/1 modules 0 active
 webpack is watching the files…
-
-Hash: 088a67f37012a984bf26
+                                                                                                                                                                                                   Hash: 088a67f37012a984bf26
 Version: webpack 4.17.0
-Time: 10197ms
-Built at: 2018-08-24 22:45:30
+Time: 9172ms
+Built at: 2018-09-03 11:32:18
      Asset       Size  Chunks             Chunk Names
  bundle.js   97.5 KiB       0  [emitted]  js
 bundle.css  288 bytes       0  [emitted]  js
@@ -316,6 +298,7 @@ INFO Selenium process finished.
 - [react-redux](https://ghub.io/react-redux): Official React bindings for Redux
 - [redux](https://ghub.io/redux): Predictable state container for JavaScript apps
 - [redux-saga](https://ghub.io/redux-saga): Saga middleware for Redux to handle Side Effects
+- [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
 
 ## Dev Dependencies
 
@@ -341,7 +324,6 @@ INFO Selenium process finished.
 - [eslint-plugin-json](https://ghub.io/eslint-plugin-json): Lint JSON files
 - [eslint-plugin-react](https://ghub.io/eslint-plugin-react): React specific linting rules for ESLint
 - [expect](https://ghub.io/expect): This package exports the `expect` function used in [Jest](https://jestjs.io/). You can find its documentation [on Jest&#39;s website](https://jestjs.io/docs/en/expect.html).
-- [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
 - [extract-text-webpack-plugin](https://ghub.io/extract-text-webpack-plugin): Extract text from bundle into a file.
 - [jsdom](https://ghub.io/jsdom): A JavaScript implementation of many web standards
 - [jsdom-global](https://ghub.io/jsdom-global): Enable DOM in Node.js
