@@ -10,7 +10,7 @@ node_js:
   
 script:
   - npm run test
-  - npm run start
+  - npm run prod
   - npm run featuretest
 
 notifications:
