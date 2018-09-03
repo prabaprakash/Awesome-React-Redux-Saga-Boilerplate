@@ -1,8 +1,16 @@
 language: node_js
 
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+jdk:
+  - oraclejdk8
+
 os:
   - linux
-  - osx
 
 node_js:
   - 8
@@ -11,6 +19,7 @@ node_js:
 script:
   - npm run test
   - npm run prod
+  - npm run featuretest
 
 notifications:
   email:
