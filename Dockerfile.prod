@@ -10,4 +10,4 @@ RUN mkdir -p logs && \
     npm cache verify
 
 EXPOSE 3200
-CMD npm run serve
+CMD npm run serve && pm2 logs
