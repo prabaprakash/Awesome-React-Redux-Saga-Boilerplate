@@ -17,8 +17,10 @@ node_js:
   - 6
   
 script:
+  - npm install pm2 -g
   - npm run test
   - npm run prod
+  - npm run serve
   - npm run featuretest
 
 notifications:
