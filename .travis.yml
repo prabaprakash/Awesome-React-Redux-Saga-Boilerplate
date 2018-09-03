@@ -1,6 +1,6 @@
 sudo: required
 dist: trusty
-language: java
+language: node_js
 addons:
   apt:
     sources:
