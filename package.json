@@ -64,13 +64,14 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "pm2": "^3.0.4",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-saga": "^0.16.0",
-    "express": "^4.16.3"
+    "redux-saga": "^0.16.0"
   },
   "nyc": {
     "extension": [
