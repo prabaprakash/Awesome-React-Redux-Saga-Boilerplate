@@ -7,7 +7,7 @@
     "prestart": "pm2 start src/server/ecosystem.config.js",
     "start": "npm run build:dll:dev && webpack -d --watch --progress --colors",
     "build:dll:dev": "webpack -d --config webpack.library.config.js",
-    "preprod": "pm2 start src/server/ecosystem.config.js",
+    "serve": "pm2 start src/server/ecosystem.config.js",
     "prod": "npm run build:dll:prod && webpack -p --progress --colors",
     "build:dll:prod": "webpack -p --config webpack.library.config.js",
     "test": "nyc mocha",

@@ -4,7 +4,9 @@ WORKDIR /app
 
 RUN mkdir -p logs && \
     npm install && \
-    npm install pm2 -g
+    npm run prod && \
+    npm prune --production && \
+    npm cache verify
 
 EXPOSE 3200
-CMD npm run prod && npm prune --production
+CMD npm run serve
