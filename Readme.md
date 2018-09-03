@@ -1,4 +1,40 @@
-![](https://raw.githubusercontent.com/prabaprakash/React-Redux-Saga-Boilerplate/master/doc/app.gif)
+<img src="https://raw.githubusercontent.com/prabaprakash/React-Redux-Saga-Boilerplate/master/doc/app.gif" alt="react redux boilerplate banner" align="center" />
+
+<br />
+
+<div align="center">A Well articulated React-Redux-Saga Boilerplate with pre-configured Unit/Automation Testing for Standard Product Development with all the industry best practices</div>
+
+<br />
+
+<div align="center">
+  <!-- Dependency Status -->
+  <a href="https://david-dm.org/prabaprakash/React-Redux-Saga-Boilerplate">
+    <img src="https://david-dm.org/prabaprakash/React-Redux-Saga-Boilerplate.svg" alt="Dependency Status" />
+  </a>
+  <!-- devDependency Status -->
+  <a href="https://david-dm.org/prabaprakash/React-Redux-Saga-Boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/prabaprakash/React-Redux-Saga-Boilerplate/dev-status.svg" alt="devDependency Status" />
+  </a>
+  <!-- Build Status -->
+  <a href="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate">
+    <img src="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
+  </a>
+  <!-- Gitter 
+  <a href="https://gitter.im/flexdinesh/react-redux-boilerplate">
+    <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
+  </a> 
+-->
+</div>
+
+<br />
+
+<div align="center">
+  <sub>Created by <a href="https://www.linkedin.com/in/prabaprakash">Praba Prakash</a></sub>
+</div>
+
+
+
+
 # Pre-requisites:
   *  Node v8.9.4
   *  PM2        : `npm install -g pm2`
