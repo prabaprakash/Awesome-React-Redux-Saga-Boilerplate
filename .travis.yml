@@ -1,0 +1,23 @@
+language: node_js
+
+os:
+  - linux
+  - osx
+
+node_js:
+  - 8
+  - 6
+  
+script:
+  - npm run test
+  - npm run start
+  - npm run featuretest
+
+notifications:
+  email:
+    on_failure: change
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
