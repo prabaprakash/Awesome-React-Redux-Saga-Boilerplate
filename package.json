@@ -17,7 +17,7 @@
     "jslint": "eslint ./src/client ./src/server ./test/unit ./test/features --fix",
     "jsonlint": "eslint ./ --ext .json",
     "csslint": "stylelint ./src/client/**/*.scss --syntax scss --fix",
-    "heroku": "npm install pm2 -g && npm run prod && npm run serve && pm2 logs"
+    "heroku": "npm install pm2 -g && npm run serve && pm2 logs"
   },
   "author": "",
   "license": "ISC",
