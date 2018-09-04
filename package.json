@@ -17,7 +17,7 @@
     "jslint": "eslint ./src/client ./src/server ./test/unit ./test/features --fix",
     "jsonlint": "eslint ./ --ext .json",
     "csslint": "stylelint ./src/client/**/*.scss --syntax scss --fix",
-    "heroku-postbuild": "npm run prod",    
+    "heroku-postbuild": "npm run prod",
     "heroku": "npm run serve && pm2 logs"
   },
   "author": "",
@@ -67,6 +67,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "pm2": "^3.0.4",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
