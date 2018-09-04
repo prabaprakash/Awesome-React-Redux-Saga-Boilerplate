@@ -17,6 +17,7 @@
     "jslint": "eslint ./src/client ./src/server ./test/unit ./test/features --fix",
     "jsonlint": "eslint ./ --ext .json",
     "csslint": "stylelint ./src/client/**/*.scss --syntax scss --fix",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "heroku-postbuild": "npm run prod",
     "heroku": "npm run serve && pm2 logs"
   },
@@ -36,6 +37,7 @@
     "chai-enzyme": "^1.0.0-beta.1",
     "chai-http": "^4.0.0",
     "chromedriver": "^2.41.0",
+    "coveralls": "^3.0.2",
     "css-loader": "^1.0.0",
     "cucumber": "^4.2.1",
     "cucumber-pretty": "^1.4.4",

@@ -33,6 +33,8 @@ script:
   - npm run serve
   - npm run featuretest
 
+after_success: npm run coverage
+
 notifications:
   email:
     on_failure: change
