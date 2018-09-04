@@ -5,6 +5,8 @@ jobs:
       branch: master
       heroku:
         appname: react-redux-saga
+    steps:
+      - checkout
   build:
     docker:
       - image: circleci/node:6-stretch-browsers
@@ -22,8 +24,9 @@ jobs:
           paths:
             - node_modules
           key: v4-dependencies-{{ checksum "package.json" }}
-      # run tests!
-      - run: sudo npm install pm2 -g
+      - run:
+          name: Installing PM2
+          command: sudo npm install pm2 -g
       - run: npm run test
       - run: npm run prod
       - run: npm run serve
