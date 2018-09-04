@@ -1,18 +1,13 @@
 version: 2
 jobs:
-  deployment:
-    docker:
-      - image: circleci/node:7.10
-    staging:
-      branch: master
-      heroku:
-        appname: react-redux-saga
-    steps:
-      - checkout
-      - run: npm install
-      - run: sudo npm install pm2 -g
-      - run: npm run prod
-      - run: npm run serve
+  deploy:
+      docker:
+        - image: buildpack-deps:trusty
+      steps:
+        - checkout
+        - run:
+            name: Deploy Master to Heroku
+            command: git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
   build:
     docker:
       - image: circleci/node:6-stretch-browsers
