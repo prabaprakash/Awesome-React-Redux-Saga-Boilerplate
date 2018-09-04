@@ -5,7 +5,7 @@ export function* initalize() {
   try {
     yield put({
       type: actions.SAVE,
-      number: 1000,
+      number: 100,
     });
   } catch (e) {
     yield put({ type: 'INITALIZE_APPLICATION_FAILED', number: null });
