@@ -1,12 +1,18 @@
 version: 2
 jobs:
   deployment:
+    docker:
+      - image: circleci/node:7.10
     staging:
       branch: master
       heroku:
         appname: react-redux-saga
     steps:
       - checkout
+      - run: npm install
+      - run: sudo npm install pm2 -g
+      - run: npm run prod
+      - run: npm run serve
   build:
     docker:
       - image: circleci/node:6-stretch-browsers
