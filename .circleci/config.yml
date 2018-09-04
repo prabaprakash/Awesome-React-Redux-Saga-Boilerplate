@@ -1,10 +1,10 @@
 version: 2
 jobs:
-  # deploy:
-  #   staging:
-  #     branch: master
-  #     heroku:
-  #       appname: react-redux-saga
+  deployment:
+    staging:
+      branch: master
+      heroku:
+        appname: react-redux-saga
   build:
     docker:
       - image: circleci/node:6-stretch-browsers
@@ -33,9 +33,9 @@ workflows:
   build-and-deploy:
     jobs:
       - build
-      # - deploy:
-      #     requires:
-      #       - build
-      #     filters:
-      #       branches:
-      #         only: master
+      - deployment:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
