@@ -2,7 +2,7 @@
 
 <br />
 
-<div align="center">Well Architected React-Redux-Saga Boilerplate with pre-configured Unit/E2e - Automation Testing with all the industry best practices for Standard Product Development</div>
+<div align="center">Well Architect-ed React-Redux-Saga Boilerplate with pre-configured CI/CD & Unit/E2e - Automation Testing with all the industry best practices for Standard Product Development</div>
 
 <br />
 
