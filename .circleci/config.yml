@@ -3,7 +3,12 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
-jobs:
+ jobs:
+  deployment:
+    staging:
+      branch: master
+      heroku:
+        appname: react-redux-saga
   build:
     docker:
       # specify the version you desire here
@@ -39,3 +44,14 @@ jobs:
       - run: npm run prod
       - run: npm run serve
       - run: npm run featuretest
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: sequential-branch-filter
