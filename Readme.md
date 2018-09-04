@@ -19,6 +19,9 @@
   <a href="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate">
     <img src="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
   </a>
+  <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
+    <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
+  </a>
   <!-- Gitter 
   <a href="https://gitter.im/flexdinesh/react-redux-boilerplate">
     <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
