@@ -31,7 +31,6 @@ module.exports = {
       'comma-spacing': ["error", { "before": false, "after": true }],
       'object-curly-spacing': ["error", "always"],
       'key-spacing': ["error", { "beforeColon": false, "afterColon": true }],
-      'arrow-body-style': ["error", "as-needed"],
-      'linebreak-style': 0,
+      'arrow-body-style': ["error", "as-needed"]
     },
 };
