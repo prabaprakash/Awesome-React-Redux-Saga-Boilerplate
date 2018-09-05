@@ -45,9 +45,6 @@
   *  Node v8.9.4
   *  PM2        : `npm install -g pm2`
 
-# Clone:
-  `git clone https://github.com/prabaprakash/React-Redux-Saga-Boilerplate.git`
-
 # Start Application:
   * `npm install`  to download dependencies
   # Dev Mode
