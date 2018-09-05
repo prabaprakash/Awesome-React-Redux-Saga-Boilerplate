@@ -32,6 +32,8 @@ jobs:
       - run: npm run prod
       - run: npm run serve
       - run: npm run featuretest
+      - run: npm install sonar-scanner -g
+      - run: sonar-scanner
 workflows:
   version: 2
   build-and-deploy:
