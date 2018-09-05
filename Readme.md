@@ -24,6 +24,8 @@
   </a>
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
+    <a href='http://52.187.134.188:8080/dashboard?id=praba'>
+    <img src='http://52.187.134.188:8080/api/project_badges/measure?project=praba&metric=alert_status' alt='Coverage Status' /></a>
 
   <!-- Gitter 
   <a href="https://gitter.im/flexdinesh/react-redux-boilerplate">
