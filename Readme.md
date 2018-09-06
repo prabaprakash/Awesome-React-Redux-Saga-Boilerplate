@@ -38,9 +38,6 @@
   <sub>Created by <a href="https://www.linkedin.com/in/prabaprakash">Praba Prakash</a></sub>
 </div>
 
-# Links
-- [Donate](https://www.patreon.com/prabaprakash)
-
 # Pre-requisites:
   *  Node v8.9.4
   *  PM2        : `npm install -g pm2`
@@ -382,6 +379,9 @@ INFO Selenium process finished.
 - [uglifyjs-webpack-plugin](https://ghub.io/uglifyjs-webpack-plugin): UglifyJS plugin for webpack
 - [webpack](https://ghub.io/webpack): Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.
 - [webpack-cli](https://ghub.io/webpack-cli): CLI for webpack &amp; friends
+
+### Links
+- [Donate](https://www.patreon.com/prabaprakash)
 
 ### License
 Copyright (c) 2018 Praba Prakash, contributors.
