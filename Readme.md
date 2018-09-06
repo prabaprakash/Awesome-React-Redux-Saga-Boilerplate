@@ -386,6 +386,6 @@ INFO Selenium process finished.
 ### License
 Copyright (c) 2018 Praba Prakash, contributors.
 
-Released under the [MIT license](https://tldrlegal.com/license/mit-license).
+Released under the [MIT license](https://github.com/prabaprakash/React-Redux-Saga-Boilerplate/blob/master/LICENSE).
 
 Screenshots are [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike)
