@@ -1,8 +1,6 @@
 version: '3'
 services:
   reactreduxsagawebapp:
-    volumes:
-      - .:/app
     build:
       context: .
       dockerfile: Dockerfile
