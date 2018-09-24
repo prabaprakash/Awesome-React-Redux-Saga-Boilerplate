@@ -9,6 +9,7 @@
     "build:dll:dev": "webpack -d --config webpack.library.config.js",
     "serve": "pm2 start src/server/ecosystem.config.js",
     "prod": "npm run build:dll:prod && webpack -p --progress --colors",
+    "dev": "npm run build:dll:prod && webpack -d --progress --colors",
     "build:dll:prod": "webpack -p --config webpack.library.config.js",
     "test": "nyc mocha",
     "featuretest": "./node_modules/.bin/nightwatch",
