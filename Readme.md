@@ -118,7 +118,7 @@ Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist 
   * `npm run prod` to run application in production mode
   * Open http://localhost:3200/ to see the application in normal mode
 ```shell
-$ npm run prod
+$ npm run prod && npm run serve
 
 > reactredux@1.0.0 preprod C:\Users\paranganat\Desktop\ReactRedux
 > pm2 start src/server/ecosystem.config.js
