@@ -7,6 +7,6 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 3200:3200
+      - 80:3200
     environment:
       - NODE_ENV=dev
