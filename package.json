@@ -57,6 +57,7 @@
     "node-sass": "^4.9.3",
     "nyc": "^12.0.2",
     "react-addons-test-utils": "^15.6.2",
+    "react-testing-library": "^5.1.0",
     "redux-test-utils": "^0.2.2",
     "sass-loader": "^7.1.0",
     "selenium-server": "^3.14.0",

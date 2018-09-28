@@ -17,6 +17,7 @@ export default class App extends React.Component {
           +
       </Button>
       <FormControl
+        data-testid="number"
         type="text"
         value={this.props.number}
         onChange={this.handleChange}
