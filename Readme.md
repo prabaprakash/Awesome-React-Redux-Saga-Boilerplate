@@ -16,8 +16,8 @@
     <img src="https://david-dm.org/prabaprakash/React-Redux-Saga-Boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate">
-    <img src="https://travis-ci.org/prabaprakash/React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
+  <a href="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate">
+    <img src="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
   </a>
   <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
     <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
