@@ -70,11 +70,13 @@
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "pm2": "^3.0.4",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.3",
     "react-dom": "^16.4.2",
+    "react-player": "^1.8.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0"
