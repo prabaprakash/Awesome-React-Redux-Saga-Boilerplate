@@ -17,15 +17,15 @@ describe('Server', () => {
         });
     });
   });
-
-  describe('get unknown route', () => {
-    it('It should throw error for unknown route', function(done) {
-      request
-        .get('/unknown')
-        .then((err) => {
-          expect(err).to.have.status(404);
-          done();
-        });
-    });
-  });
+//React Router Configured It Won't Work
+  // describe('get unknown route', () => {
+  //   it('It should throw error for unknown route', function(done) {
+  //     request
+  //       .get('/unknown')
+  //       .then((err) => {
+  //         expect(err).to.have.status(404);
+  //         done();
+  //       });
+  //   });
+  // });
 });
