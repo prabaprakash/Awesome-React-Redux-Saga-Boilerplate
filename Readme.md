@@ -22,6 +22,7 @@
   <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
     <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate.svg?type=shield"/></a>
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
     <a href='http://52.187.134.188:8080/dashboard?id=praba'>
@@ -389,3 +390,6 @@ Copyright (c) 2018 Praba Prakash, contributors.
 Released under the [MIT license](https://github.com/prabaprakash/React-Redux-Saga-Boilerplate/blob/master/LICENSE).
 
 Screenshots are [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate?ref=badge_large)
