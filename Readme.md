@@ -19,9 +19,9 @@
   <a href="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate">
     <img src="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
   </a>
-  <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
+<!--   <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
     <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
-  </a>
+  </a> -->
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
    <!-- Gitter 
