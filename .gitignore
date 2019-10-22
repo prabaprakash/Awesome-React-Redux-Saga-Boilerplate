@@ -2,3 +2,6 @@ node_modules
 **/dist/public
 src/server/logs
 logs
+.nyc_output/
+reports/
+selenium-debug.log

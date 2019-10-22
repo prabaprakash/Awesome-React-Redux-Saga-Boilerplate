@@ -3,7 +3,7 @@
 
 // import React from "react";
 // import ReactDOM from "react-dom";
-// import { render, fireEvent, cleanup } from "react-testing-library";
+// import { render, fireEvent, cleanup } from "@testing-library/react";
 // import { Provider, connect } from "react-redux";
 // import { createStore, applyMiddleware, compose } from "redux";
 // import createSagaMiddleware from "redux-saga";
@@ -23,7 +23,7 @@
 //   };
 // }
 
-// describe("actions", () => {
+// describe("testing library react", () => {
 //   it("should trigger the ADD action", () => {
 //     const store = createStore(
 //       reducers,
@@ -32,10 +32,11 @@
 //       },
 //       composeEnhancers(applyMiddleware(sagaMiddleware))
 //     );
-//     store.subscribe(()=> console.log(store.getState()));
 //     sagaMiddleware.run(rootSaga); 
+//     store.subscribe(()=> console.log("state -> ", store.getState()));
 //     const { getByTestId, getByText, getByValue } = renderWithRedux(<AppContainer />, store);
 //     fireEvent.click(getByText("-"));
+//     fireEvent.click(getByText("+"));
 //     fireEvent.click(getByText("+"));
 //     expect(getByTestId("number").value).to.equal("0");
 //   });

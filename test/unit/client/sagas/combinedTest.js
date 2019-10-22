@@ -6,6 +6,6 @@ describe('rootSaga', () => {
   it('should check the number of listeners', () => {
     const root = rootSaga();
     let rsEffect = root.next();
-    expect(rsEffect.value.ALL.length).to.equal(4);
+    expect(rsEffect.value.payload.length).to.equal(4);
   });
 });

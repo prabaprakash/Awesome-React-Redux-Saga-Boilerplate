@@ -1,0 +1,289 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Search",
+    "line": 1,
+    "id": "google-search",
+    "tags": [],
+    "uri": "test\\features\\calc.feature",
+    "elements": [
+      {
+        "id": "google-search;add",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open app",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I see textbox with value \"100\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click add button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I see textbox with value \"101\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I click add button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I see textbox with value \"102\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-search;sub",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Sub",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open app",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I see textbox with value \"100\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I click sub button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I see textbox with value \"99\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I click sub button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I see textbox with value \"98\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-search;change",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Change",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open app",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I see textbox with value \"100\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I change the text box value to \"1000\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click add button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I see textbox with value \"1001\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click sub button",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I see textbox with value \"1000\"",
+            "match": {
+              "location": "test\\features\\step_definitions\\calc.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
