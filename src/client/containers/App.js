@@ -3,9 +3,12 @@ import { connect } from 'react-redux';
 import App from '../components/App';
 import { add, sub, change } from '../actions';
 
-const mapStateToProps = state => ({
-  number: state.calc.number,
-});
+const mapStateToProps = state => {
+  console.log("mapStateToProps -> ", state);
+  return {
+    number: state.calc.number,
+  }
+};
 
 const mapDispatchToProps = dispatch =>
   bindActionCreators(
