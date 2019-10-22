@@ -5,4 +5,3 @@ logs
 .nyc_output/
 reports/
 selenium-debug.log
-.nyc_output/

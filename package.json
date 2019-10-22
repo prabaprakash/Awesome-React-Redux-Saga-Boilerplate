@@ -11,7 +11,7 @@
     "build:dll:dev": "webpack -d --config webpack.library.config.js",
     "build:dll:prod": "webpack -p --config webpack.library.config.js",
     "serve": "pm2 start src/server/ecosystem.config.js",
-    "test": "nyc mocha",
+    "test": "nyc mocha --require @babel/register",
     "featuretest": "./node_modules/.bin/nightwatch",
     "featuretest:debug": "node --inspect-brk node_modules/.bin/nightwatch",
     "lint": "npm run jslint && npm run jsonlint && npm run csslint",
