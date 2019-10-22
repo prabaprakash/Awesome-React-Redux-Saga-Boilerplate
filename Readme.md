@@ -24,9 +24,7 @@
   </a>
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
-    <a href='http://52.187.134.188:8080/dashboard?id=praba'>
-    <img src='http://52.187.134.188:8080/api/project_badges/measure?project=praba&metric=alert_status' alt='Coverage Status' /></a>
-  <!-- Gitter 
+   <!-- Gitter 
   <a href="https://gitter.im/flexdinesh/react-redux-boilerplate">
     <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
   </a> 
