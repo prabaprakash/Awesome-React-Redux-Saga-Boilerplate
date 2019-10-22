@@ -23,21 +23,27 @@ function renderWithRedux(ui, store) {
   };
 }
 
+const store = createStore(
+  reducers({}),
+  {
+    calc: { number: 0 }
+  },
+  composeEnhancers(applyMiddleware(sagaMiddleware))
+);
+sagaMiddleware.run(rootSaga);
+store.subscribe(() => console.log("state -> ", store.getState()));
+
 describe("testing library react", () => {
   it("should trigger the ADD action", () => {
-    const store = createStore(
-      reducers({}),
-      {
-        calc: { number: 0 }
-      },
-      composeEnhancers(applyMiddleware(sagaMiddleware))
-    );
-    sagaMiddleware.run(rootSaga); 
-    store.subscribe(()=> console.log("state -> ", store.getState()));
+    const { getByTestId, getByText, getByValue } = renderWithRedux(<AppContainer />, store);
+    fireEvent.click(getByText("+"));
+    fireEvent.click(getByText("+"));
+    expect(getByTestId("number").value).to.equal("2");
+  });
+  it("should trigger the SUB action", () => {
     const { getByTestId, getByText, getByValue } = renderWithRedux(<AppContainer />, store);
     fireEvent.click(getByText("-"));
-    fireEvent.click(getByText("+"));
-    fireEvent.click(getByText("+"));
-    expect(getByTestId("number").value).to.equal("1");
+    fireEvent.click(getByText("-"));
+    expect(getByTestId("number").value).to.equal("0");
   });
 });
