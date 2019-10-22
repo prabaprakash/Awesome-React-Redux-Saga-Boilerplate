@@ -1,0 +1,27 @@
+23:48:47.115 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+23:48:47.294 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-10-22 23:48:47.393:INFO::main: Logging initialized @638ms to org.seleniumhq.jetty9.util.log.StdErrLog
+23:48:47.781 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+23:48:48.307 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+23:48:51.211 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "args": [
+      "headless",
+      "verbose",
+      "window-size=1280,1480"
+    ]
+  },
+  "javascriptEnabled": true,
+  "unexpectedAlertBehaviour": "accept",
+  "unhandledPromptBehavior": "accept"
+}
+23:48:51.212 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 8859
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1571768333.082][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
+23:48:54.149 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+23:48:54.191 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f944ff8896bc832d13b48c8d138ded3c (org.openqa.selenium.chrome.ChromeDriverService)
+23:48:58.853 INFO [ActiveSessions$1.onStop] - Removing session f944ff8896bc832d13b48c8d138ded3c (org.openqa.selenium.chrome.ChromeDriverService)

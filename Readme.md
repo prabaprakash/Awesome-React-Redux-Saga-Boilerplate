@@ -19,15 +19,14 @@
   <a href="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate">
     <img src="https://travis-ci.org/prabaprakash/Awesome-React-Redux-Saga-Boilerplate.svg" alt="Build Status" />
   </a>
-  <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
+<!--   <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
     <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
-  </a>
+  </a> -->
 <a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate.svg?type=shield"/></a>
+  </a>
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
-    <a href='http://52.187.134.188:8080/dashboard?id=praba'>
-    <img src='http://52.187.134.188:8080/api/project_badges/measure?project=praba&metric=alert_status' alt='Coverage Status' /></a>
-  <!-- Gitter 
+   <!-- Gitter 
   <a href="https://gitter.im/flexdinesh/react-redux-boilerplate">
     <img src="https://camo.githubusercontent.com/54dc79dc7da6b76b17bc8013342da9b4266d993c/68747470733a2f2f6261646765732e6769747465722e696d2f6d78737462722f72656163742d626f696c6572706c6174652e737667" alt="Gitter Chat" />
   </a> 
