@@ -22,7 +22,7 @@
 <!--   <a href="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master">
     <img src="https://circleci.com/gh/prabaprakash/React-Redux-Saga-Boilerplate/tree/master.svg?style=svg" alt="Build Status" />
   </a> -->
-<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate.svg?type=shield"/></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fprabaprakash%2FAwesome-React-Redux-Saga-Boilerplate.svg?type=shield"/></a>
   </a>
   <a href='https://coveralls.io/github/prabaprakash/React-Redux-Saga-Boilerplate?branch=master'>
     <img src='https://coveralls.io/repos/github/prabaprakash/React-Redux-Saga-Boilerplate/badge.svg?branch=master' alt='Coverage Status' /></a>
