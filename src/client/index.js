@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import createRouteReducers from './reducers/combined';
 
@@ -29,7 +30,7 @@ import Error from './components/Error';
 
 render(
   <Provider store={store}>
-    <ConnectedRouter history={history}> 
+    <ConnectedRouter history={history}>
       <div>
         <Switch>
           <Route exact path="/" component={AppContainer}/>
