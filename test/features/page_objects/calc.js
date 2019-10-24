@@ -39,8 +39,8 @@ module.exports = {
   commands: [mainCommands],
   elements: {
     body: 'body',
-    addButton: '#app > div > div > button:nth-child(1)',
-    subButton: '#app > div > div > button:nth-child(3)',
-    textBox: '#app > div > div > input',
+    addButton: '#app > div > div > div > button:nth-child(1)',
+    subButton: '#app > div > div > div > button:nth-child(3)',
+    textBox: '#app > div > div > div > input',
   },
 };
