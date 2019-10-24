@@ -28,6 +28,7 @@ jobs:
       - run:
           name: Installing PM2
           command: sudo npm install pm2 -g
+      - run: npm rebuild node-sass
       - run: npm run test
       - run: npm run prod
       - run: npm run serve
