@@ -38,7 +38,7 @@
     "chai": "^4.2.0",
     "chai-enzyme": "^1.0.0-beta.1",
     "chai-http": "^4.3.0",
-    "chromedriver": "^76.0.1",
+    "chromedriver": "^77.0.0",
     "coveralls": "^3.0.7",
     "css-loader": "^3.2.0",
     "cucumber": "^5.1.0",
