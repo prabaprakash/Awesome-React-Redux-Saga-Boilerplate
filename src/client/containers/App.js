@@ -4,7 +4,6 @@ import App from '../components/App';
 import { add, sub, change } from '../actions';
 
 const mapStateToProps = state => {
-  console.log("mapStateToProps -> ", state);
   return {
     number: state.calc.number,
   }

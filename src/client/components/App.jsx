@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import '../styles/App.scss';
-import { Button, FormControl } from 'react-bootstrap';
+
+import { Button, FormControl, Row, Container } from 'react-bootstrap';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,8 +13,9 @@ export default class App extends React.Component {
     parseInt(e.target.value) ? this.props.change(parseInt(e.target.value)): '';
   }
   render() {
-    return (<div className="container">
-      <Button bsStyle="primary" onClick={() => this.props.add(this.props.number)}>
+    return (<Container>
+      <Row>
+      <Button onClick={() => this.props.add(this.props.number)}>
           +
       </Button>
       <FormControl
@@ -22,10 +24,11 @@ export default class App extends React.Component {
         value={this.props.number}
         onChange={this.handleChange}
       />
-      <Button bsStyle="primary" onClick={() => this.props.sub(this.props.number)}>
+      <Button onClick={() => this.props.sub(this.props.number)}>
           -
       </Button>
-    </div>
+      </Row>
+      </Container>
     );
   }
 }
