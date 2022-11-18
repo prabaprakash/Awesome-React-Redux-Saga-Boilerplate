@@ -67,7 +67,7 @@
     "testdouble": "^3.12.4",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
